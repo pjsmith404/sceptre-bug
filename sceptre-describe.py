@@ -7,5 +7,5 @@ context = SceptreContext(
 )
 
 plan = SceptrePlan(context)
-change_sets = plan.describe()
+change_sets = plan.describe_change_set('test-change-set')
 print(change_sets)
