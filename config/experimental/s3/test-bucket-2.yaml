@@ -1,0 +1,4 @@
+template_path: test-bucket.yaml
+
+dependencies:
+  - experimental/s3/test-bucket-3.yaml
